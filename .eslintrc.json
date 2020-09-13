@@ -2,9 +2,10 @@
   "root": true,
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es2020": true
   },
-  "extends": ["eslint:recommended", "airbnb"],
+  "extends": ["airbnb-config-base"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
