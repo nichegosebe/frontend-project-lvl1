@@ -8,4 +8,4 @@ publish:
 	npm publish --dry-run
 	
 make lint: 
-	npx ./node_modules/.bin/eslint ./bin/brain-games.js
+	eslint ./bin/brain-games.js
