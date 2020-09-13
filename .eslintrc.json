@@ -4,13 +4,7 @@
     "es2021": true,
     "node": true
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "airbnb",
-    "airbnb/hooks",
-    "plugin:lodash/recommended"
-  ],
+  "extends": ["eslint:recommended", "airbnb", "airbnb/hooks", "plugin:lodash/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -18,9 +12,9 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "lodash"],
+  "plugins": ["lodash"],
   "rules": {
-   "no-console": "off",
-   "import/extensions": "off"
+    "no-console": "off",
+    "import/extensions": "off"
   }
 }
