@@ -19,5 +19,8 @@
     "sourceType": "module"
   },
   "plugins": ["react", "lodash"],
-  "rules": {}
+  "rules": {
+   "no-console": "off",
+   "import/extensions": "off"
+  }
 }
