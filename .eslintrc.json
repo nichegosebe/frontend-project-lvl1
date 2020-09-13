@@ -12,7 +12,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["lodash"],
+  "plugins": ["react", "lodash"],
   "rules": {
     "no-console": "off",
     "import/extensions": "off"
