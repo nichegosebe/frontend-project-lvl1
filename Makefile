@@ -7,5 +7,5 @@ brain-games:
 publish:
 	npm publish --dry-run
 	
-make lint: 
+lint: 
 	eslint ./bin/brain-games.js
