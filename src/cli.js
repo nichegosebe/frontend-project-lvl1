@@ -7,4 +7,4 @@ const greeting = () => {
   console.log(`Hello, ${getName()}!`);
 };
 
-export default greeting;
+export { greeting };
