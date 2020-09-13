@@ -1,5 +1,5 @@
 {
-  "name": "project-01",
+  "name": "frontend-project-lvl1",
   "version": "1.0.0",
   "description": "hexlet first project - brain games",
   "main": "index.js",
@@ -13,6 +13,9 @@
   "author": "ilya tikhonov",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "readline-sync": "^1.4.10"
   }
 }
