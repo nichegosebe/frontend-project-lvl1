@@ -5,7 +5,7 @@
     "node": true,
     "es2020": true
   },
-  "extends": ["airbnb-config-base"],
+  "extends": ["airbnb-base"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
