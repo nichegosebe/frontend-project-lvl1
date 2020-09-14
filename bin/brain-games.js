@@ -7,4 +7,3 @@ say('Welcome to the Brain Games!');
 const playerName = ask('May I have your name?');
 
 say(`Hello, ${playerName}`);
-v;
