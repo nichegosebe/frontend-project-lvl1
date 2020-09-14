@@ -1,4 +1,4 @@
-import { ask, say, sayTo } from './cli.js';
+import { ask, say } from './cli.js';
 
 const rules = 'Answer \x1b[31m"yes"\x1b[37m \x1b[1mif\x1b[2m the number is even, otherwise answer \x1b[31m"no"\x1b[37m';
 
@@ -10,16 +10,18 @@ const getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
 
 const getCorrectAnswer = (n) => (n % 2 === 0 ? 'yes' : 'no');
 
-const gameSingleTurn = () => {
+const gameRound = () => {
   const n = getRandomInt(MAX_VALUE);
-
   say(`Question: ${n}`);
 
-  const usersAnswer = ask('Your answer:');
   const correctAnswer = getCorrectAnswer(n);
+  const usersAnswer = ask('Your answer:');
 
-  if (usersAnswer === correctAnswer) say('Correct!');
-  else say(`"${usersAnswer}" is wrong answer ;(. Correct answer was ${correctAnswer}!`);
+  if (usersAnswer === correctAnswer) {
+    say('Correct!');
+  } else {
+    say(`"${usersAnswer}" is wrong answer ;(. Correct answer was ${correctAnswer}!`);
+  }
 
   return (usersAnswer === correctAnswer);
 };
@@ -34,11 +36,14 @@ const gamePlay = () => {
 
   let roundsCount = 0;
   while (roundsCount < MAX_ROUNDS) {
-    if (!gameSingleTurn()) return;
+    if (!gameRound()) {
+      say(`Let's try again, ${playerName}!`);
+      return;
+    }
     roundsCount += 1;
   }
 
-  sayTo('Congratulations', playerName);
+  say(`Congratulations, ${playerName}!`);
 };
 
 export default gamePlay;
