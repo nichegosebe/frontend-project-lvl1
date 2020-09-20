@@ -17,3 +17,6 @@ Education project on Hexlet.io
 
 "brain-progression" gameplay:
 [![asciicast](https://asciinema.org/a/sWpSZ5lEmOpIukTs0V0PsAQB0.svg)](https://asciinema.org/a/sWpSZ5lEmOpIukTs0V0PsAQB0)
+
+"brain-prime" gameplay:
+[![asciicast](https://asciinema.org/a/ToH3RCKmGMcnId0BhHAQHdOFi.svg)](https://asciinema.org/a/ToH3RCKmGMcnId0BhHAQHdOFi)
