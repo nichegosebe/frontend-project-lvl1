@@ -12,7 +12,7 @@ const singleRound = (generateQA) => {
   return usersAnswer === correctAnswer;
 };
 
-const playeGame = (game, maxRounds = 3) => {
+const playGame = (game, maxRounds = 3) => {
   const [getRules, generateQA] = game;
 
   say('Welcome to the Brain Games!');
@@ -32,4 +32,4 @@ const playeGame = (game, maxRounds = 3) => {
   say(`Congratulations, ${playerName}!`);
 };
 
-export default playeGame;
+export default playGame;
