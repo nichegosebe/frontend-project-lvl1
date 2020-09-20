@@ -1,7 +1,6 @@
 const MAX_VALUE = 20;
 
-const RULES =
-  'Answer \x1b[31m"yes"\x1b[37m \x1b[1mif\x1b[0m given number is prime, otherwise answer \x1b[31m"no"\x1b[0m';
+const RULES = 'Answer \x1b[31m"yes"\x1b[37m \x1b[1mif\x1b[0m given number is prime, otherwise answer \x1b[31m"no"\x1b[0m';
 
 const getRules = () => RULES;
 
