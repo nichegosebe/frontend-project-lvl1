@@ -12,5 +12,5 @@ Education project on Hexlet.io
 "brain-calc" gameplay:
 [![asciicast](https://asciinema.org/a/360733.svg)](https://asciinema.org/a/360733)
 
-"brain-nod" gameplay:
-[![asciicast](https://asciinema.org/a/FSm8cGT3FfvQg9ExLI5a2OuaB.svg)](https://asciinema.org/a/FSm8cGT3FfvQg9ExLI5a2OuaB)
+"brain-gcd" gameplay:
+[![asciicast](https://asciinema.org/a/vsSfcUTDNPM9xRb1tsQS5eVL6.svg)](https://asciinema.org/a/vsSfcUTDNPM9xRb1tsQS5eVL6)

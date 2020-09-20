@@ -11,8 +11,8 @@ const calculateAnswer = (val1, val2) => {
 };
 
 const generateQA = () => {
-  const val1 = Math.floor(Math.random() * Math.floor(MAX_VALUE));
-  const val2 = Math.floor(Math.random() * Math.floor(MAX_VALUE));
+  const val1 = 1 + Math.floor(Math.random() * Math.floor(MAX_VALUE - 1));
+  const val2 = 1 + Math.floor(Math.random() * Math.floor(MAX_VALUE - 1));
   const question = `${val1} ${val2}`;
 
   const answer = calculateAnswer(val1, val2).toString();
