@@ -6,8 +6,11 @@ Education project on Hexlet.io
 
 ![CI](https://github.com/nichegosebe/frontend-project-lvl1/workflows/CI/badge.svg)
 
-First "brain-even" game gameplay demo:
+"brain-even" gameplay:
 [![asciicast](https://asciinema.org/a/360735.svg)](https://asciinema.org/a/360735)
 
-Second "brain-calc" game gameplay demo:
+"brain-calc" gameplay:
 [![asciicast](https://asciinema.org/a/360733.svg)](https://asciinema.org/a/360733)
+
+"brain-nod" gameplay:
+[![asciicast](https://asciinema.org/a/FSm8cGT3FfvQg9ExLI5a2OuaB.svg)](https://asciinema.org/a/FSm8cGT3FfvQg9ExLI5a2OuaB)
