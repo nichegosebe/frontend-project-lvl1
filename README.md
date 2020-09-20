@@ -14,3 +14,6 @@ Education project on Hexlet.io
 
 "brain-gcd" gameplay:
 [![asciicast](https://asciinema.org/a/vsSfcUTDNPM9xRb1tsQS5eVL6.svg)](https://asciinema.org/a/vsSfcUTDNPM9xRb1tsQS5eVL6)
+
+"brain-progression" gameplay:
+[![asciicast](https://asciinema.org/a/sWpSZ5lEmOpIukTs0V0PsAQB0.svg)](https://asciinema.org/a/sWpSZ5lEmOpIukTs0V0PsAQB0)
