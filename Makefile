@@ -19,9 +19,6 @@ brain-prime:
 brain-progression:
 	node ./bin/brain-progression.js
 
-install:
-	npm install
-
 publish:
 	npm publish --dry-run
 	
