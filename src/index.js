@@ -1,15 +1,17 @@
 import { ask, say } from './cli.js';
 
+const generateRandomNumber = (n) => Math.floor(Math.random() * Math.floor(n));
+
 const playGame = (rule, generateQuestionAndAnswer) => {
   say('Welcome to the Brain Games!');
-  const playerName = ask('May I have your name?');
+  const playerName = ask('May I have your name? ');
   say(`Hello, ${playerName}`);
   say(rule);
 
   for (let i = 0; i < 3; i += 1) {
     const [question, correctAnswer] = generateQuestionAndAnswer();
     say(`Question: ${question}`);
-    const usersAnswer = ask('Your answer:');
+    const usersAnswer = ask('Your answer: ');
 
     if (usersAnswer === correctAnswer) {
       say('Correct!');
@@ -22,4 +24,4 @@ const playGame = (rule, generateQuestionAndAnswer) => {
   say(`Congratulations, ${playerName}!`);
 };
 
-export default playGame;
+export { playGame, generateRandomNumber };

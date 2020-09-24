@@ -1,4 +1,4 @@
-import playGame from '../index.js';
+import { playGame, generateRandomNumber } from '../index.js';
 
 const rule = 'What number is missing in the progression?';
 
@@ -9,10 +9,10 @@ const generateProgression = (start, size, step) => {
 };
 
 const generateQuestionAndAnswer = () => {
-  const startNumber = Math.floor(Math.random() * Math.floor(10));
-  const step = 2 + Math.floor(Math.random() * Math.floor(8));
+  const startNumber = generateRandomNumber(10);
+  const step = 2 + generateRandomNumber(8);
   const question = generateProgression(startNumber, 10, step);
-  const randomPosition = Math.floor(Math.random() * Math.floor(9));
+  const randomPosition = generateRandomNumber(9);
   question[randomPosition] = '..';
   const answer = (startNumber + step * randomPosition).toString();
   return [question, answer];
