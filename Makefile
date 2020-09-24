@@ -26,4 +26,4 @@ publish:
 	npm publish --dry-run
 	
 lint: 
-	eslint **/*js
+	npx eslint **/*.js

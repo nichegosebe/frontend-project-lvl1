@@ -5,8 +5,13 @@
     "es2020": true
   },
   "extends": "airbnb-base",
-  "ecmaVersion": 11,
-  "sourceType": "module",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "rules": {
     "no-console": 0,
     "import/extensions": 0

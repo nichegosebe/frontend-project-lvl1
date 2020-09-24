@@ -4,6 +4,7 @@ const rule = 'What is the result of the expression?';
 const operands = ['+', '-', '*'];
 
 const getAnswer = (number1, number2, operand) => {
+  const err = 'Unknown operand type';
   switch (operand) {
     case '+':
       return number1 + number2;
@@ -12,7 +13,7 @@ const getAnswer = (number1, number2, operand) => {
     case '*':
       return number1 * number2;
     default:
-      throw 'Unknown operand type';
+      throw err;
   }
 };
 
