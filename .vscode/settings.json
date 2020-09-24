@@ -1,8 +1,0 @@
-{
-  "files.eol": "\n",
-  "eslint.codeAction.disableRuleComment": {
-    "no-console": "off",
-    "import/extensions": "off"
-  },
-  "eslint.format.enable": true
-}
