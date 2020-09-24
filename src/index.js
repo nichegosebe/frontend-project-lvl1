@@ -12,7 +12,6 @@ const playGame = (rule, generateQuestionAndAnswer) => {
     const [question, correctAnswer] = generateQuestionAndAnswer();
     say(`Question: ${question}`);
     const usersAnswer = ask('Your answer: ');
-
     if (usersAnswer === correctAnswer) {
       say('Correct!');
     } else {
