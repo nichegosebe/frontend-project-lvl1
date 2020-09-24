@@ -1,21 +1,14 @@
 {
   "root": true,
   "env": {
-    "browser": true,
     "node": true,
     "es2020": true
   },
-  "extends": ["airbnb-base"],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 12,
-    "sourceType": "module"
-  },
-  "plugins": ["react"],
+  "extends": "airbnb-base",
+  "ecmaVersion": 11,
+  "sourceType": "module",
   "rules": {
-    "no-console": "off",
-    "import/extensions": "off"
+    "no-console": 0,
+    "import/extensions": 0
   }
 }

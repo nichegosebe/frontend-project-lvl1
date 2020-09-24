@@ -4,18 +4,26 @@ install:
 brain-games:
 	node ./bin/brain-games.js
 
+brain-calc:
+	node ./bin/brain-calc.js
+
+brain-even:
+	node ./bin/brain-even.js
+
+brain-gcd:
+	node ./bin/brain-gcd.js
+
+brain-prime:
+	node ./bin/brain-prime.js
+
+brain-progression:
+	node ./bin/brain-progression.js
+
+install:
+	npm install
+
 publish:
 	npm publish --dry-run
 	
 lint: 
-	./node_modules/eslint/bin/eslint.js ./bin/brain-games.js
-	./node_modules/eslint/bin/eslint.js ./src/cli.js
-	./node_modules/eslint/bin/eslint.js ./bin/brain-even.js
-	./node_modules/eslint/bin/eslint.js ./bin/brain-gcd.js
-	./node_modules/eslint/bin/eslint.js ./bin/brain-progression.js
-	./node_modules/eslint/bin/eslint.js ./bin/brain-prime.js
-	./node_modules/eslint/bin/eslint.js ./src/games/brain-even-logic.js
-	./node_modules/eslint/bin/eslint.js ./src/games/brain-calc-logic.js
-	./node_modules/eslint/bin/eslint.js ./src/games/brain-gcd-logic.js
-	./node_modules/eslint/bin/eslint.js ./src/games/brain-progression-logic.js
-	./node_modules/eslint/bin/eslint.js ./src/games/brain-prime-logic.js
+	npx lint

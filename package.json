@@ -1,12 +1,11 @@
 {
   "name": "frontend-project-lvl1",
-  "version": "1.0.0",
-  "description": "hexlet first project - brain games",
+  "version": "1.0.1",
+  "description": "hexlet education project - brain games",
   "main": "index.js",
   "type": "module",
   "private": "true",
   "bin": {
-    "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
@@ -25,10 +24,6 @@
     "eslint": "^7.9.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.0",
-    "eslint-plugin-lodash": "^7.1.0",
-    "eslint-plugin-react": "^7.20.6",
-    "eslint-plugin-react-hooks": "^4.0.0"
+    "eslint-plugin-import": "^2.22.0"
   }
 }
