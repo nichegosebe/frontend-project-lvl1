@@ -18,7 +18,6 @@ Few console math games. (education project on Hexlet.io)
 
 ### Game example
 
-"brain-even" gameplay:
 [![asciicast](https://asciinema.org/a/360735.svg)](https://asciinema.org/a/360735)
 
 ## Brain calc
@@ -29,7 +28,6 @@ Few console math games. (education project on Hexlet.io)
 
 ### Game example
 
-"brain-calc" gameplay:
 [![asciicast](https://asciinema.org/a/360733.svg)](https://asciinema.org/a/360733)
 
 ## Brain GCD
@@ -40,7 +38,6 @@ Few console math games. (education project on Hexlet.io)
 
 ### Game example
 
-"brain-gcd" gameplay:
 [![asciicast](https://asciinema.org/a/vsSfcUTDNPM9xRb1tsQS5eVL6.svg)](https://asciinema.org/a/vsSfcUTDNPM9xRb1tsQS5eVL6)
 
 ## Brain progression
@@ -51,7 +48,6 @@ Few console math games. (education project on Hexlet.io)
 
 ### Game example
 
-"brain-progression" gameplay:
 [![asciicast](https://asciinema.org/a/sWpSZ5lEmOpIukTs0V0PsAQB0.svg)](https://asciinema.org/a/sWpSZ5lEmOpIukTs0V0PsAQB0)
 
 ## Brain prime
@@ -62,5 +58,4 @@ Few console math games. (education project on Hexlet.io)
 
 ### Game example
 
-"brain-prime" gameplay:
 [![asciicast](https://asciinema.org/a/ToH3RCKmGMcnId0BhHAQHdOFi.svg)](https://asciinema.org/a/ToH3RCKmGMcnId0BhHAQHdOFi)
