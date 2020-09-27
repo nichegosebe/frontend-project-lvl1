@@ -1,10 +1,10 @@
-import { playGame, generateRandomNumber } from '../index.js';
+import { playGame } from '../index.js';
+import { generateRandomNumber } from '../utils';
 
 const rule = 'What is the result of the expression?';
 const operands = ['+', '-', '*'];
 
 const getAnswer = (number1, number2, operand) => {
-  const err = 'Unknown operand type';
   switch (operand) {
     case '+':
       return number1 + number2;
@@ -13,15 +13,15 @@ const getAnswer = (number1, number2, operand) => {
     case '*':
       return number1 * number2;
     default:
-      throw err;
+      throw new Error('Unknown operand type');
   }
 };
 
 const generateQuestionAndAnswer = () => {
-  const number1 = generateRandomNumber(5);
-  const number2 = generateRandomNumber(5);
-  const randomNumber = generateRandomNumber(3);
-  const operand = operands[randomNumber];
+  const number1 = generateRandomNumber(0, 5);
+  const number2 = generateRandomNumber(0, 5);
+  const randomOperandIndex = generateRandomNumber(0, 3);
+  const operand = operands[randomOperandIndex];
   const question = `${number1} ${operand} ${number2}`;
   const answer = getAnswer(number1, number2, operand).toString();
   return [question, answer];

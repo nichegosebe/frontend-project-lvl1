@@ -1,6 +1,5 @@
+/* eslint-disable import/prefer-default-export */
 import { ask, say } from './cli.js';
-
-const generateRandomNumber = (n) => Math.floor(Math.random() * Math.floor(n));
 
 const playGame = (rule, generateQuestionAndAnswer) => {
   say('Welcome to the Brain Games!');
@@ -23,4 +22,4 @@ const playGame = (rule, generateQuestionAndAnswer) => {
   say(`Congratulations, ${playerName}!`);
 };
 
-export { playGame, generateRandomNumber };
+export { playGame };
