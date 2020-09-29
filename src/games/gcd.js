@@ -4,10 +4,10 @@ import { generateRandomNumber } from '../utils';
 const rule = 'Find the greatest common divisor of given numbers';
 
 const getGCD = (n1, n2) => {
-    if (n2 === 0) {
-      return n1;
-    }
-    return getGCD(n2, n1 % n2;
+  if (n2 === 0) {
+    return n1;
+  }
+  return getGCD(n2, n1 % n2);
 };
 
 const generateQuestionAndAnswer = () => {
