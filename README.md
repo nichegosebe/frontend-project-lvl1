@@ -2,7 +2,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/29095546d221bbf33f39/maintainability)](https://codeclimate.com/github/nichegosebe/frontend-project-lvl1/maintainability)
 
-[![CI](https://github.com/nichegosebe/frontend-project-lvl1/workflows/CI/badge.svg)](https://github.com/nichegosebe/frontend-project-lvl1/actions)
+[![Node.js CI](https://github.com/nichegosebe/frontend-project-lvl1/workflows/Node.js%20CI/badge.svg)](https://github.com/nichegosebe/frontend-project-lvl1/actions)
 
 Few console math games. (education project on Hexlet.io)
 
