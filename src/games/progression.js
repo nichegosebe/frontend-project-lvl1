@@ -15,7 +15,7 @@ const generateProgression = (start, length, step) => {
 const generateQuestionAndAnswer = () => {
   const startNumber = generateRandomNumber(0, 10);
   const step = generateRandomNumber(0, 10);
-  const question = generateProgression(startNumber, progressionLength, step);
+  const question = generateProgression(startNumber, progressionLength, step).join(' ');
   const randomPosition = generateRandomNumber(0, progressionLength - 1);
   question[randomPosition] = '..';
   const answer = (startNumber + step * randomPosition).toString();
